@@ -1,0 +1,30 @@
+PATH
+  remote: .
+  specs:
+    kumiki (0.1.0)
+      ranma
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    rake-compiler-dock (1.11.0)
+    ranma (0.1.0)
+      rb_sys
+    rb_sys (0.9.124)
+      rake-compiler-dock (= 1.11.0)
+
+PLATFORMS
+  arm64-darwin-25
+  ruby
+
+DEPENDENCIES
+  kumiki!
+
+CHECKSUMS
+  kumiki (0.1.0)
+  rake-compiler-dock (1.11.0) sha256=eab51f2cd533eb35cea6b624a75281f047123e70a64c58b607471bb49428f8c2
+  ranma (0.1.0) sha256=6676185c40a1b55801b8c0f3e670a405a799309ec7e9d1b666b80376a3c35ab1
+  rb_sys (0.9.124) sha256=513476557b12eaf73764b3da9f8746024558fe8699bda785fb548c9aa3877ae7
+
+BUNDLED WITH
+  4.0.3
